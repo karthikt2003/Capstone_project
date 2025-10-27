@@ -22,6 +22,26 @@
 <artifactId>selenium-java</artifactId>
 <version>4.36.0</version>
 </dependency>
+
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.12.0</version>
+  </dependency>
+
+  <!-- WebDriverManager (optional, helps manage drivers) -->
+  <dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.4.1</version>
+  </dependency>
+
+  <!-- TestNG - compile scope so annotations in src/main/java resolve -->
+  <dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.10.2</version>
+  </dependency>
  
     <!-- WebDriverManager -->
 <dependency>
