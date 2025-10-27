@@ -17,6 +17,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseTest {
 	public WebDriver driver;
 	protected ExtentReports extent;
+	protected ExtentTest test;
 	
 	@BeforeSuite
 	public void setupreport() {
